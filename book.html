@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Free Inspection | Upper Shield Roofing | Austin, TX</title>
+  <meta name="description" content="Schedule your free 35-point roof inspection with Upper Shield Roofing. Zero cost, no obligation. Call (512) 281-7008 or book online today.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <meta property="og:title" content="Book a Free Roof Inspection | Upper Shield Roofing">
+  <meta property="og:description" content="Zero-cost 35-point inspections and honest answers about storm damage. Schedule your appointment today.">
+  <meta property="og:image" content="assets/og-image.jpg">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..600&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="book">
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="Upper Shield Roofing home">
+        <img src="assets/logo.png" alt="Upper Shield Roofing Company">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" data-nav="home">Home</a></li>
+        <li><a href="services.html" data-nav="services">Services</a></li>
+        <li><a href="about.html" data-nav="about">About</a></li>
+        <li><a href="book.html" data-nav="book">Contact</a></li>
+      </ul>
+      <a href="book.html" class="btn btn-primary nav-cta">Free Inspection</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero hero--page" style="background-image: url('assets/hero-book.jpg');">
+    <div class="hero-content">
+      <span class="eyebrow">Free 35-Point Inspection</span>
+      <h1>Schedule Your Appointment Today</h1>
+      <p>Zero cost, no pressure, no obligation. Just an honest answer about what your roof actually needs.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="book-grid">
+        <div class="form-panel">
+          <span class="eyebrow">Get Started</span>
+          <h2>Request Your Free Inspection</h2>
+          <p>Tell us a little about your property and we'll reach out to schedule a time that works for you.</p>
+          <form action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT_HERE" method="POST" data-validate novalidate>
+            <input type="hidden" name="_next" value="https://one-true-mission.github.io/upper-shield-roofing/thank-you.html">
+            <input type="hidden" name="_subject" value="New inspection request from uppershieldroofing.com">
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name">
+                <span class="error-msg">Please enter your name.</span>
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" required autocomplete="tel">
+                <span class="error-msg">Please enter your phone number.</span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email">
+                <span class="error-msg">Please enter a valid email address.</span>
+              </div>
+              <div class="field">
+                <label for="city">City</label>
+                <input type="text" id="city" name="city" required autocomplete="address-level2">
+                <span class="error-msg">Please enter your city.</span>
+              </div>
+            </div>
+            <div class="field">
+              <label for="service">What do you need help with?</label>
+              <select id="service" name="service" required>
+                <option value="">Select one</option>
+                <option>Free 35-Point Inspection</option>
+                <option>Storm Damage Restoration</option>
+                <option>Insurance Claim Help / Denied Claim</option>
+                <option>Roof Replacement</option>
+                <option>Roof Repair</option>
+                <option>Gutters, Siding, or Windows</option>
+                <option>Something Else</option>
+              </select>
+              <span class="error-msg">Please choose a service.</span>
+            </div>
+            <div class="field">
+              <label for="message">Tell us about your roof (optional)</label>
+              <textarea id="message" name="message" placeholder="Recent hailstorm? Visible damage? Denied claim? The more we know, the faster we can help."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Request My Free Inspection</button>
+          </form>
+        </div>
+
+        <aside class="contact-panel">
+          <h3>Reach Us Directly</h3>
+          <div class="contact-item">
+            <small>Phone</small>
+            <a href="tel:5122817008">(512) 281-7008</a>
+          </div>
+          <div class="contact-item">
+            <small>Email</small>
+            <a href="mailto:josh@uppershieldroofing.com">josh@uppershieldroofing.com</a>
+          </div>
+          <div class="contact-item">
+            <small>Office</small>
+            <p>5900 Balcones Dr, Ste 28715<br>Austin, TX 78731</p>
+          </div>
+          <div class="contact-item">
+            <small>Service Area</small>
+            <p>Austin, Round Rock, Cedar Park, Leander, Georgetown, Lago Vista, Lakeway, Kyle, San Marcos, College Station</p>
+          </div>
+          <hr class="contact-divider">
+          <h3>What Happens Next</h3>
+          <ol class="next-steps">
+            <li>We call you back to schedule your free appointment.</li>
+            <li>We complete the 35-point inspection and review it with you.</li>
+            <li>You get an honest recommendation and a clear next step.</li>
+          </ol>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Upper Shield Roofing Company">
+        <p>Family-operated roofing and storm restoration built on integrity, experience, and strong relationships.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:5122817008">(512) 281-7008</a></li>
+          <li><a href="mailto:josh@uppershieldroofing.com">josh@uppershieldroofing.com</a></li>
+          <li><a href="https://maps.google.com/?q=5900+Balcones+Dr+Ste+28715+Austin+TX+78731" target="_blank" rel="noopener">5900 Balcones Dr, Ste 28715<br>Austin, TX 78731</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Free 35-Point Inspection</a></li>
+          <li><a href="services.html">Insurance Claim Assistance</a></li>
+          <li><a href="services.html">Storm Damage Restoration</a></li>
+          <li><a href="services.html">Roof Replacement &amp; Repair</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="book.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-inner">
+        <span>&copy; 2026 Upper Shield Roofing Company. All rights reserved.</span>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Upper Shield Roofing on Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.52 1.49-3.91 3.77-3.91 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.45 2.91h-2.33V22c4.78-.76 8.44-4.92 8.44-9.94z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
