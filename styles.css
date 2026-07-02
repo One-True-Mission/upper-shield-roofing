@@ -380,6 +380,38 @@ a { color: var(--accent); text-decoration: none; }
 
 .tile-icon svg { width: 26px; height: 26px; }
 
+.tile-media {
+  position: relative;
+  margin: -34px -30px 24px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  border-bottom: 3px solid var(--accent);
+  background: var(--ink);
+}
+
+.tile-media img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.tile:hover .tile-media img { transform: scale(1.05); }
+
+.tile-media .tile-icon {
+  position: absolute;
+  left: 14px;
+  bottom: 14px;
+  margin: 0;
+  width: 46px;
+  height: 46px;
+  background: rgba(13, 30, 50, 0.92);
+  border: 1px solid rgba(90, 169, 220, 0.45);
+}
+
+.tile-media .tile-icon svg { width: 24px; height: 24px; }
+
 .tile h3 { margin-bottom: 10px; }
 .tile p { font-size: 0.98rem; }
 
